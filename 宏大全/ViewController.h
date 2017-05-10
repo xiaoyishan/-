@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSObject_commset.h"
 
 @interface ViewController : UIViewController
 

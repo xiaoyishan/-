@@ -26,6 +26,7 @@
 		2173526C1EC077660018E395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2173526F1EC077660018E395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		217352711EC077660018E395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217352791EC07B650018E395 /* NSObject_commset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_commset.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +59,9 @@
 		2173525F1EC077660018E395 /* 宏大全 */ = {
 			isa = PBXGroup;
 			children = (
-				217352631EC077660018E395 /* AppDelegate.h */,
-				217352641EC077660018E395 /* AppDelegate.m */,
+				217352791EC07B650018E395 /* NSObject_commset.h */,
 				217352661EC077660018E395 /* ViewController.h */,
 				217352671EC077660018E395 /* ViewController.m */,
-				217352691EC077660018E395 /* Main.storyboard */,
-				2173526C1EC077660018E395 /* Assets.xcassets */,
-				2173526E1EC077660018E395 /* LaunchScreen.storyboard */,
-				217352711EC077660018E395 /* Info.plist */,
 				217352601EC077660018E395 /* Supporting Files */,
 			);
 			path = "宏大全";
@@ -74,6 +70,12 @@
 		217352601EC077660018E395 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				217352631EC077660018E395 /* AppDelegate.h */,
+				217352641EC077660018E395 /* AppDelegate.m */,
+				217352691EC077660018E395 /* Main.storyboard */,
+				2173526C1EC077660018E395 /* Assets.xcassets */,
+				2173526E1EC077660018E395 /* LaunchScreen.storyboard */,
+				217352711EC077660018E395 /* Info.plist */,
 				217352611EC077660018E395 /* main.m */,
 			);
 			name = "Supporting Files";
