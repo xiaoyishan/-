@@ -58,7 +58,10 @@
 #define kUserDefaults           [NSUserDefaults standardUserDefaults]
 #define kNotificationCenter     [NSNotificationCenter defaultCenter]
 
-
+//数据转换
+#define GetStrFromInt(X)        [NSString stringWithFormat:@"%d",X]
+#define GetStrFromFloat(X)      [NSString stringWithFormat:@"%f",X]
+#define GetStrFromNumber(X)     [NSString stringWithFormat:@"%@",X]
 
 
 
