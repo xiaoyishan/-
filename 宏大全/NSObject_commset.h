@@ -64,10 +64,24 @@
 #define GetStrFromFloat(X)      [NSString stringWithFormat:@"%f",X]
 #define GetStrFromNumber(X)     [NSString stringWithFormat:@"%@",X]
 
-// 当前时间 精确到毫秒 15位 
-static inline NSString *NowDat(){
+// 当前时间 精确到毫秒 15位
+static inline NSString *DateNow15(){
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyyMMddHHmmssSSS"];
+    return [dateFormatter stringFromDate:[NSDate new]];
+}
+
+// 当前日期 (年月日) 2018-05-05
+static inline NSString *DateNowYMD(){
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+    return [dateFormatter stringFromDate:[NSDate new]];
+}
+
+// 当前日期 (年月日 时分秒) 2018-05-05 15:25:21
+static inline NSString *DateNowYMDHMS(){
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     return [dateFormatter stringFromDate:[NSDate new]];
 }
 
